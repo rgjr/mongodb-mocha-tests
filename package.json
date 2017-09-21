@@ -1,0 +1,16 @@
+{
+  "name": "mongo-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'mocha -R min'"
+  },
+  "author": "Raul Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.5.3",
+    "mongoose": "^4.11.12",
+    "nodemon": "^1.12.1"
+  }
+}
